@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 export const Footer: React.FC = () => {
@@ -49,9 +50,13 @@ export const Footer: React.FC = () => {
 
         <div className="mt-12 pt-8 border-t border-white/5 text-center flex flex-col md:flex-row justify-between items-center text-gray-600 text-[10px] uppercase tracking-widest gap-4 md:gap-0">
           <p>&copy; 2024 Calcutta 2025. All rights reserved.</p>
-          <p>
-            Made with <i className="fa-solid fa-heart text-red-800 mx-1"></i> in Kolkata
-          </p>
+          
+          <div className="flex flex-col md:flex-row items-center gap-2 md:gap-6">
+            <p className="text-brand-gold/70 font-semibold">Created by Soumik</p>
+            <p>
+              Made with <i className="fa-solid fa-heart text-red-800 mx-1"></i> in Kolkata
+            </p>
+          </div>
         </div>
       </div>
     </footer>
